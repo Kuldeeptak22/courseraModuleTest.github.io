@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: rgb(202, 199, 199);
+}
+h1{
+    margin: 30px auto;
+    text-align: center;
+    color: brown;
+    font-size: 28px;
+}
+section{
+    position: relative;
+    padding: 15px;
+    width: 100%;
+}
+p {
+    position: relative;
+    clear: right;
+}
+div{
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: auto;       
+}
+.para{
+    padding: 15px;
+    font-size: 16px;
+}
+
+.sec1{
+    background-color: rgb(255, 103, 103);
+    border: 2px solid black;
+    width: 100%; 
+}
+.title1{
+    background-color: yellow;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    float: right;
+    width: 180px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 20px;
+}
+
+.sec2{
+    background-color: rgb(159, 244, 249);
+    border: 2px solid black;
+    width: 100%;
+}
+.title2{
+    background-color: rgb(215, 252, 157);
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    float: right;
+    width: 180px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 20px;
+}
+
+.sec3{
+    background-color: rgb(255, 144, 17);
+    border: 2px solid black;
+    width: 100%;
+}
+.title3{
+    background-color: rgb(140, 200, 253);
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+    float: right;
+    width: 180px;
+    text-align: center;
+    padding: 8px 0;
+    font-size: 20px;
+}
+
+/*Desktop size*/
+@media (min-width: 992px){
+    .col-lg-4{
+        float: left;
+        width: 33.33%;
+    }
+}
+
+/* Tablet size*/
+@media (min-width:768px)and (max-width:991px){
+    .col-md-6{
+        float: left;
+        width: 50%;
+    }
+   .extra{
+        width: 100%;
+   }
+
+}
+
+ /*mobile Size*/
+ @media (max-width: 767px) {
+    .col-sm-12 {
+        float: left;
+        width: 100%;
+    }
+    section{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+}
